@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vous trouverez mes réalisations du site boulangerie-pâtisserie et images source pixabay, pexel." />
+    <link rel="icon" type="image/x-icon" href="images/logo boulangerie.avif" />
+    <title>Association Délices d'Or</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="container-fluid py-3 entete">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-2">
+                <img src="images/logo boulangerie.avif" alt="Logo boulangerie" width=100px class="img-fluid">
+            </div>
+            <div class="col-8 col-md-10 text-center" style="font-family: poppins; color: hsl(66, 82%, 13%); font-size:clamp(1.5rem, 2vw, 3rem); font-weight:700; font-family: cursive;">
+                Association Délices d'Or
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="images/maison.png" alt="maison" class="home" width="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                    <a href="presentation.html" class="nav-item nav-link">Présentation</a>
+                    <a href="evenements.html" class="nav-item nav-link">Événements</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="container my-4">
+        <h2 class="text-center fw-bold" style="font-family:poppins; color: hsl(66, 82%, 13%);">
+            Bienvenue chez l'association Délices d'Or
+        </h2>
+
+        <h3 class="text-center text-warning mt-5">Nos derniers Événements</h3>
+
+        <!-- Carousel -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/gateaux 3.jpg" class="d-block w-100 img-fluid" alt="Gâteaux">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="evenement.html" class="text-decoration-none text-white">
+                            <p class="fs-4">Les week-ends : réduction sur nos gâteaux de 30%.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/tarte fraise.jpg" class="d-block w-100 img-fluid" alt="Tarte fraise">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="evenement.html" class="text-decoration-none text-white">
+                            <h5 class="fs-4">Promotion sur nos produits Tartes</h5>
+                            Deux produits achetés = un offert !
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pain croissant1284438__340.jpg" class="d-block w-100 img-fluid" class="rounded"alt="Pains croissants">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="evenement.html" class="text-decoration-none text-white
+                        ">
+                            <h5 class="fs-4">Jusqu'au mercredi 31 mai 2025</h5>
+                            Trois pains croissants achetés = un offert !
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+
+        <!-- Présentation -->
+        <div class="text-center mt-5">
+            <h5 class="text-warning">Notre brève présentation</h5>
+            <a href="presentation.html" class="text-decoration-none text-dark">
+                <p>
+                    Nous sommes une association de jeunes boulangers-pâtissiers, titulaires d'un Bac Pro boulangerie-pâtisserie.
+                    <br> Nous avons créé ce site pour mettre en avant notre boulangerie, qui vous accueille tous les jours
+                    avec des produits frais et de qualité, entièrement faits maison.
+                    <br>
+                    Des techniques artisanales et authentiques pour des produits à déguster tous les jours : boulangerie et pâtisserie.
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-info py-4 text-center">
+        <p class="mb-1" style="color:rgb(198, 140, 32); font-size:larger;">Association Délices d'Or</p>
+        <img src="images/phone fixe.png" alt="Téléphone" width="35px">
+        <p class="mb-1"><a href="tel:+33139486056">01 39 48 60 56</a></p>
+        <p class="mb-1"><a href="mailto:boulangerie.lartisanal2023@hotmail.com">boulangerie.lartisanal2025@hotmail.com</a></p>
+        <p class="mb-1">LE MARKET, Place du 8 Mai 1945<br>78711 Mantes-la-Ville</p>
+        <p>6h30–13h les dimanches et jours fériés<br>6h30–19h du lundi au samedi</p>
+    </footer>
+
+</body>
+
+
+</html>
