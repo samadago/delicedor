@@ -26,7 +26,7 @@ Delice d'Or est une application de Boulangerie qui permet :
 **Outils:**  
 - ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 - https://app.netlify.com/sites/delicedor/overview
-- Visual studio code
+- https://code.visualstudio.com
 
 
 
