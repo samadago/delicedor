@@ -2,7 +2,7 @@
 
 
 
-> **Note**: https://github.com/samadago/siteassociationdelicesdor.
+> **Note**:https://github.com/samadago/delicedor.
 
 Une application web de Boulangelie associattive association de jeunes boulangers-pâtissiers, titulaires d'un Bac Pro boulangerie-pâtisserie.
 créé ce site pour mettre en avant la boulangerie.
